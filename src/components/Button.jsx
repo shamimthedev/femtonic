@@ -14,7 +14,7 @@ export default function Button({ children }) {
         w-[350px] h-[40px]
         md:w-[313px] md:h-[40px]
         md:mx-0 mx-auto
-        justify-center
+        justify-center cursor-pointer
       `}
       style={{ padding: 0 }}
     >
