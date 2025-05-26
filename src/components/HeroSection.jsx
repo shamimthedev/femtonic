@@ -25,7 +25,7 @@ export default function HeroSection() {
             bg-black min-h-[80vh]
         ">
             {/* Left: Text Content */}
-            <div className="w-full md:w-1/2 flex flex-col items-start">
+            <div className="w-full md:w-[516px] flex flex-col items-start z-10">
                 <h1 className="text-[25px] md:text-[35px] font-extrabold md:font-bold font-urbanist leading-7 md:leading-10 mb-3 text-white">
                     Want to Turn Social Media Into a Profitable Career?
                 </h1>
@@ -52,7 +52,7 @@ export default function HeroSection() {
                 </div>
             </div>
             {/* Right: Mobile Mockup */}
-            <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
+            <div className="w-full md:w-[55%] flex justify-center mb-8 md:mb-0 md:-ml-16 z-0">
                 <MobileMockup />
             </div>
         </section>

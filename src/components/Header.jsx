@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="flex justify-between max-w-[1120px] mx-auto py-6 px-4 md:px-10 bg-transparent relative z-10">
+    <header className="flex justify-between items-center max-w-[1120px] mx-auto py-6 px-4 md:px-10 bg-transparent relative z-10">
       {/* Logo */}
       <div className="flex items-center">
         <img
