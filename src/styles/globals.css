@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --font-figtree: 'Figtree', sans-serif;
+  --font-urbanist: 'Urbanist', sans-serif;
+}
+
+/* Set default font for the body */
+body {
+  font-family: var(--font-figtree), sans-serif;
+}
+
+/* Utility classes for font switching */
+.font-figtree {
+  font-family: var(--font-figtree), sans-serif;
+}
+.font-urbanist {
+  font-family: var(--font-urbanist), sans-serif;
+}
+
