@@ -2,31 +2,31 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center max-w-[1120px] mx-auto py-6 px-4 md:px-10 bg-transparent relative z-10">
-      {/* Logo */}
-      <div className="flex items-center">
+    <header className="relative flex items-center max-w-[1120px] mx-auto py-6 px-4 md:px-10 bg-transparent z-10">
+      <div className="
+        absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
+        md:static md:translate-x-0 md:translate-y-0
+        flex items-center
+        w-full md:w-auto justify-center
+        pointer-events-none md:pointer-events-auto
+      ">
         <img
           src="/images/fametonic-logo.png"
           alt="Fametonic Logo"
-          className="
-            h-12 w-auto
-            md:h-14
-            drop-shadow-[2px_2px_0px_#ff00a8]
-            select-none
-          "
+          className="h-12 w-auto md:h-14 drop-shadow-[2px_2px_0px_#ff00a8] select-none"
           style={{ filter: 'drop-shadow(2px 2px 0 #ff00a8)' }}
         />
       </div>
 
       {/* Desktop Navigation */}
-      <nav className="hidden md:flex space-x-10 text-lg font-figtree font-semibold text-[#A9A9A9]">
+      <nav className="hidden md:flex space-x-10 text-lg font-figtree font-semibold text-[#A9A9A9] ml-auto md:mr-[110px]">
         <NavLink href="/about">About us</NavLink>
         <NavLink href="/contact">Contact</NavLink>
       </nav>
 
       {/* Mobile Hamburger */}
       <button
-        className="md:hidden text-white text-3xl focus:outline-none"
+        className="md:hidden text-white text-3xl ml-auto focus:outline-none z-10"
         aria-label="Open navigation menu"
       >
         <span>&#9776;</span>
