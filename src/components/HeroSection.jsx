@@ -26,10 +26,10 @@ export default function HeroSection() {
         ">
             {/* Left: Text Content */}
             <div className="w-full md:w-[516px] flex flex-col items-start z-10">
-                <h1 className="text-[25px] md:text-[35px] font-extrabold md:font-bold font-urbanist leading-7 md:leading-10 mb-3 text-white">
+                <h1 className="text-[25px] md:text-[35px] font-extrabold md:font-bold font-urbanist leading-7 md:leading-10 mb-3 text-white text-center md:text-left">
                     Want to Turn Social Media Into a Profitable Career?
                 </h1>
-                <h2 className="text-[25px] md:text-[35px] font-urbanist font-extrabold md:font-bold leading-7 md:leading-10 mb-5 text-cyan-400 drop-shadow-[2px_2px_0px_#ff00a8]">
+                <h2 className="text-[25px] md:text-[35px] text-center md:text-left font-urbanist font-extrabold md:font-bold leading-7 md:leading-10 mb-5 text-cyan-400 drop-shadow-[2px_2px_0px_#ff00a8]">
                     Discover your way to success with Fametonic:
                 </h2>
                 <FeatureList />

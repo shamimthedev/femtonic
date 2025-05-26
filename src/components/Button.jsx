@@ -11,9 +11,8 @@ export default function Button({ children }) {
         transition-all duration-200
         focus:outline-none
         flex items-center gap-2
-        w-[350px] h-[40px]
-        md:w-[313px] md:h-[40px]
-        md:mx-0 mx-auto
+        w-full sm:w-[313px] h-[40px]
+        mx-auto
         justify-center cursor-pointer
       `}
       style={{ padding: 0 }}
